@@ -14,8 +14,8 @@ const writeFile = fileContent => {
             resolve( {
                 ok: true,
                 message: 'File created!'
-            })
-        })
+            });
+        });
     });
   };
 
@@ -32,9 +32,9 @@ const writeFile = fileContent => {
             resolve( {
                 ok: true,
                 message: 'File copy!'
-            })
-        })
+            });
+        });
       });
-  }
+  };
 
   module.exports = { writeFile, copyFile };
